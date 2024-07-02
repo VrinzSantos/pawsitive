@@ -1,0 +1,63 @@
+.root {
+    background-size: cover;
+    margin: auto;
+    background-position: left;
+    background-image: 
+      url(https://clipartcraft.com/images/cat-transparent-background-4.png);
+    padding-top: calc(var(--mantine-spacing-lg) * 5);
+    padding-bottom: calc(var(--mantine-spacing-lg) * 18);
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image {
+    @media (max-width: $mantine-breakpoint-md) {
+      display: none;
+    }
+  }
+  
+  .content {
+    padding-top: calc(var(--mantine-spacing-xl) * 2);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+    margin-right: calc(var(--mantine-spacing-xl) * 2);
+  }
+  
+  .title {
+    color: var(--mantine-color-black);
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-weight: 900;
+    line-height: 1.05;
+    max-width: rem(500px);
+    font-size: rem(48px);
+  }
+  
+  .description {
+    color: var(--mantine-color-white);
+    opacity: 0.75;
+    max-width: rem(500px);
+  }
+  
+  .control {
+    padding-left: rem(50px);
+    padding-right: rem(50px);
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+    font-size: rem(22px);
+  }
+  
+  .icon {
+    color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-3));
+  }
+  
+  .name {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+  }
+  

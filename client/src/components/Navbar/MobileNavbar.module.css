@@ -1,0 +1,23 @@
+.control {
+  display: flex;
+  /* padding: var(--mantine-spacing-xl) var(--mantine-spacing-2xl); */
+  border-radius: var(--mantine-radius-md);
+  align-items: center;
+  justify-content: space-between;
+  /* height: 30px; */
+  /* font-weight: 500; */
+  padding: rem(10px) rem(10px);
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-5), var(--mantine-color-dark-2));
+  }
+}
+
+&[data-active] {
+  &,
+  &:hover {
+    background-color: var(--mantine-color-white);
+    color: var(--mantine-color-blue-light-color);
+  }
+}
+

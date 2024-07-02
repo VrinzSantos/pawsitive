@@ -1,0 +1,25 @@
+.wrapper {
+    /* min-height: rem(900px); */
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover;
+    background-image: url("/src/assets/imgs/photo1.jpg");
+  }
+
+  .form {
+    /* border-right: rem(1px) solid
+        light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+      min-height: rem(900px);
+      max-width: rem(450px);
+      padding-top: rem(80px); */
+    border-right: rem(1px) solid
+      light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+    height: 100vh; /* Full height of the viewport */
+    max-width: rem(450px);
+  
+    padding-top: rem(80px);
+  }
+  
+  .title {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    font-family: Greycliff CF, var(--mantine-font-family);
+  }

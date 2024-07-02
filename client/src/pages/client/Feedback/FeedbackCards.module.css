@@ -1,0 +1,39 @@
+.title {
+    font-size: rem(34px);
+    font-weight: 900;
+    @media (max-width: $mantine-breakpoint-sm) {
+      font-size: rem(24px);
+    }
+  }
+  
+  .description {
+    max-width: rem(400px);
+    margin: auto;
+  
+    &::after {
+      content: '';
+      display: block;
+      background-color: var(--mantine-color-blue-filled);
+      width: rem(35px);
+      height: rem(2px);
+      margin-top: var(--mantine-spacing-xs);
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  .card {
+    border: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-10));
+    margin: 10px;
+  }
+  
+  /* .cardTitle {
+    &::after {
+      content: '';
+      display: block;
+      background-color: var(--mantine-color-blue-filled);
+      width: rem(45px);
+      height: rem(2px);
+      margin-top: var(--mantine-spacing-sm);
+    }
+  } */
